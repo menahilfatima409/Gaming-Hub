@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bitter:ital,wght@0,500;1,500&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Lora&family=Uchen&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Dancing+Script:wght@400;500&family=Lora&family=Noto+Serif:wght@500&family=Playfair+Display&family=Poppins:wght@300&family=Quicksand:wght@500&family=Roboto:ital,wght@0,100;1,300&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style type="text/css">
+    .container-fluid{
+        padding: 0%;
+    }
+    .top{
+    	height: 40px;
+    	background-color: #1F2027;
+    	text-align: center;
+        margin-bottom: 10px;
+        text-decoration:none;
+        color: whitesmoke;
+    }
+    .tex{
+        padding: 5px;
+    }
+
+
+   .bar{margin-top: 26px;
+   	
+   	position: fixed;
+   	height: 60px;}
+
+
+.items1{margin-left: 220px;}		
+
+.nav-link {
+	justify-content: space-between;
+	margin: 50px 20px 20px 0px;
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-link dropdown-toggle{
+    justify-content: space-between;
+	margin: 50px 20px 20px 0px;
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.heading{text-align: center;
+margin-top: 100px;}
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    font-family: poppins;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size:25px;
+}
+
+
+.main_image img{
+    height:40%;
+    width:100%;
+    padding:0px;
+   
+}
+.main_image{
+    padding:0px;
+    margin:0px;
+    block-size: gutter x 0rem;
+
+}
+.solid-navbar {
+ background-color: #123420;
+ color:whitesmoke;
+}
+</style>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+         $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+              $('.navbar').addClass('solid-navbar');
+            } else {
+              $('.navbar').removeClass('solid-navbar');
+            }
+         });
+        });
+        </script>
+
+   
+    
+    
+    <nav class="  fixed-top d3">
+      
+    <div class="row"> <div class="col top" ><p class="tex"> Shop Our Festive Collection <a href="#" style="color: #387E32;" ><b> Here</b></a> </p></div></div></nav>
+    
+    
+    <!-----nav---->
+    
+    
+    <div class="row"><div class="col "><nav class="navbar fixed-top  navbar-expand-lg  bar">
+    <div class="container-fluid">
+    
+        <a class="navbar-brand " href="#" >DANDELIONS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse items1 " id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" >About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Shop</a>
+            </li>
+            <a class="nav-link " href="#" >Gardening</a>
+            </li>
+            <a class="nav-link " href="#">Gallery</a>
+            </li>
+    
+              <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+               Courses
+              </a>
+            </li>
+                    <a class="nav-link " href="#" >Sign-Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav></div></div>
+    
+    <!-----main----->
+    <div class="container-fluid main_image">
+    <img src="images/fot.jpg">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-----body------>
+    <br>
+    <br>
+    <!----footer----->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+</body>
+</html>
+
+
+
+
+

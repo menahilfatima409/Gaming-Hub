@@ -1,0 +1,130 @@
+.container-fluid{
+    padding: 0%;
+}
+.top{
+    height: 40px;
+    background-color: #1F2027;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration:none;
+    color: whitesmoke;
+}
+.tex{
+    padding: 5px;
+}
+
+.paret{
+    background-image: url('images/garden4.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;    background-size: cover;
+}
+.bar{margin-top: 26px;
+   
+   position: fixed;
+   height: 60px;}
+
+
+.items1{margin-left: 220px;}		
+
+.nav-link {
+justify-content: space-between;
+margin: 50px 20px 20px 0px;
+font-family: poppins;
+color: white;
+text-decoration: none;
+
+}
+.nav-link dropdown-toggle{
+justify-content: space-between;
+margin: 50px 20px 20px 0px;
+font-family: poppins;
+color: white;
+text-decoration: none;
+
+
+}
+
+.heading{text-align: center;
+margin-top: 100px;}
+.navbar-brand {
+padding-top: var(--bs-navbar-brand-padding-y);
+padding-bottom: var(--bs-navbar-brand-padding-y);
+margin-right: var(--bs-navbar-brand-margin-end);
+font-size: var(--bs-navbar-brand-font-size);
+font-family: poppins;
+text-decoration: none;
+white-space: nowrap;
+color: white;
+margin-left: 20px;
+margin-top: 20px;
+font-size:25px;
+}
+
+
+.main_image img{
+height:40%;
+width:100%;
+padding:0px;
+
+}
+.main_image{
+padding:0px;
+margin:0px;
+block-size: gutter x 0rem;
+
+}
+.solid-navbar {
+background-color: #123420;
+color:whitesmoke;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  body{background-color: #f9f8f6}
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1F2027; 
+  }
+
+.h1{
+    font-family: Libre Baskerville;
+color: #144126;
+text-align: left;
+font-size: 50px;
+
+}
+.p1{
+    font-family: poppins;
+    
+    
+}
+.card-title{
+    font-family: poppins ;
+    
+    
+}
+.card-text{
+    font-family: poppins;
+    
+    
+}
+.card{
+    max-width: 900px;
+    margin-left: 12%;
+}

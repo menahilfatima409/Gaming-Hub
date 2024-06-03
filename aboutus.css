@@ -1,0 +1,65 @@
+.parall{
+    background-image: url('./images/backdrop.jpeg');
+    height: 600px;
+    background-repeat: none;
+    background-size: cover;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  body{background-color: #f9f8f6;
+  font-family: Poppins;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1F2027; 
+  }
+.hniata{
+    margin-top: 10%;
+}
+.manahil{
+    background-image: url('./images/manai.jpeg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 5%;
+    color: white;
+text-align: center;
+    
+}
+.hania{
+
+  
+    background-image: url('./images/han.jpeg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+
+}
+.menahil{
+    text-align: center;
+
+    background-image: url('./images/mena.jpeg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 7%;
+color: white;
+}

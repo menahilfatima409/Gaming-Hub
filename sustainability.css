@@ -1,0 +1,106 @@
+
+
+.main_image img{
+height:40%;
+width:100%;
+padding:0px;
+
+}
+.main_image{
+padding:0px;
+margin-right:0px;
+block-size: gutter x 0rem;
+
+}
+.solid-navbar {
+background-color: #123420;
+color:whitesmoke;
+}
+
+.gerny{
+    font-family: Libre Baskerville;
+color: #144126;
+text-align: left;
+font-size: 50px;
+
+}
+.spy{
+    font-family: Libre Baskerville;
+
+text-align: left;
+
+}
+.glaze{
+    font-family: poppins;
+}
+
+.sustac{
+  background-image: url('./images/garden12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 600px;
+}
+.button76 {
+    border-radius: 11px;
+    background-color: #387E32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 210px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  body{background-color: #f9f8f6}
+
+  .button76 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button76 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -25px;
+    transition: 0.5s;
+  }
+  
+  .button76:hover span {
+    padding-right: 20px;
+  }
+  
+  .button76:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1F2027; 
+}
+
+

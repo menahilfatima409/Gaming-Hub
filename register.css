@@ -1,0 +1,76 @@
+body{
+    background: #144126;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1F2027; 
+  }
+
+.lmab{
+height: 500px;
+    color: white;
+}
+.lmab img{
+    object-fit: fill;
+}
+.fitr4{
+    object-fit: fill;
+}
+.thank{
+    color: black;
+}
+.cardcredit{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blo{
+    display: block;
+}
+.title { display: inline-block; 
+    padding: 5px; 
+    font-size: 70px;
+    transform: rotate(270deg);
+     transform-origin: left bottom; 
+    position: absolute;
+color: white;
+bottom: 20%;}
+.formed2{
+    margin-top: 10%;
+}
+.sub6{
+    background-color: #097c0fee;
+    color: white;
+    padding: 2%;
+    border: 4px #097c0fee;
+}
+.bread{
+    color: white;
+   list-style-type: none;
+   display: flex;
+  }
+.sub6:hover{
+    background-color: #097c0fee;
+    border: 2px #097c0fee
+    ;
+}
+.sub6:focus{
+    background-color: #097c0fee;
+}

@@ -1,0 +1,95 @@
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1F2027; 
+}
+.history{
+  color: rgb(10, 94, 10);
+  text-decoration: none;
+  
+}
+
+
+   .t4{
+    margin-top: 0px;
+    padding: 0;
+   }
+   .bt4{
+    background-color: transparent;
+    padding: 7px;
+    border: 4px solid palevioletred;
+    border-radius: 22px;
+   }
+   .ther4{
+    top: 6%;
+    color: rgb(7, 46, 7);
+    font-weight: 600;
+    font-family: libre baskerville;
+    text-align: center;
+    position: relative;
+ }
+   .bt4 a{
+    text-decoration: none;
+    color: black;
+   }
+   .parallex1 {
+    background-image: url('./images/his.jpg');
+    height: 500px;
+   
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+   .t6 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered2 {
+    position: absolute;
+    top: 50%;
+  
+    transform: translate( 0%, -50%);
+    color: white;
+    font-size: 42px;
+    text-align: center;
+  }
+  .ig3{
+    height: 600px;
+  }
+  .ca3{
+    font-size: 20px;    padding: 0;
+  }
+  .ig4{
+    height: 500px;
+    width: 700px;
+  }
+
+.ca{
+    text-align: center;
+    font-size: 19px;
+}
+.s8{
+    width: 520px;
+    height: 300px;
+}
+body{background-color: #f9f8f6;
+font-family: poppins;}
